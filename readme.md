@@ -2,7 +2,14 @@
 
 **This is a work in progress 🛤️**
 
-![Project Banner: RailDriver and Train Simulator Classic](https://github.com/your-repo/your-repo/blob/main/docs/banner.png?raw=true) This project is an exploratory dive into the world of train simulation, specifically focusing on the integration between the RailDriver hardware controller and Train Simulator Classic (TSC). Our goal? To establish a robust communication channel that allows for both reading and controlling virtual locomotive functions. Buckle up, and let's explore the challenges and discoveries in this exciting endeavor!
+This project is a first approach to the world of train simulation, specifically focusing on the integration between the RailDriver hardware controller and Train Simulator Classic (TSC). Our goal? To establish a robust communication channel that allows for both reading and controlling virtual locomotive functions. Buckle up, and let's explore the challenges and discoveries in this exciting endeavor!
+
+** GUI and Python Script screenshots
+<img src="pics/RailDriverDash1.png" alt="GUI Dashboard" width="400">
+
+<img src="pics/dashNameChange.png" alt="Train name change" width="400">
+
+<img src="pics/fullPython.png" alt="Python full debug output" width="400">
 
 ## 🌟 Project Highlights
 
