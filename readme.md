@@ -160,7 +160,8 @@ Right now, the focus is on the topics below:
 * **Improving `SetControllerValue`:** Investigating the proper way to send commands to TSC via the DLL is essential for achieving control over the simulation.
 * **Expanding Controller Support:** Extending the script to handle a wider range of locomotive controls.
 * **Community Collaboration:** Engaging with the Train Simulator Classic and RailDriver communities to share findings and seek solutions.
-* **For more technical analysis and a focus on C#, study carefully the tech_readme.md" **
+* **For more technical analysis and a focus on C#:** study carefully the tech_readme.md"
+  
 ## 📄 Disclaimer
 
 This project is an independent work created for fun and is a work in progress. It is not affiliated with, endorsed by, or connected in any way to the developers or publishers of the game, the manufacturers of the hardware utilizing RailDriver.dll, or any related organizations. The code is provided as-is, without warranty of any kind. The creator assumes no responsibility for any issues, damages, or consequences resulting from its use.
