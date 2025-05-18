@@ -6,13 +6,13 @@ This project is a first approach to the world of train simulation, specifically 
 
 ## GUI and Python Script screenshots
 
-<img src="pics/RailDriverDash1.png" alt="GUI Dashboard" width="400">
+<img src="pics/RailDriverDash1.png" alt="GUI Dashboard" width="600">
 
 
-<img src="pics/dashNameChange.png" alt="Train name change" width="400">
+<img src="pics/dashNameChange.png" alt="Train name change" width="600">
 
 
-<img src="pics/fullPython.png" alt="Python full debug output" width="400">
+<img src="pics/fullPython.png" alt="Python full debug output" width="600">
 
 
 ## 🌟 Project Highlights
