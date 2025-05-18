@@ -1,0 +1,65 @@
+# Binaries
+bin/
+obj/
+*_WpfApp1.exe
+*_WpfApp1.exe.config
+*_WpfApp1.pdb
+
+# Visual Studio generated files
+.vs/
+*.suo
+*.user
+*.userprefs
+/ComponentModelCache/
+*.ide
+*.iwd
+*.ilk
+*.resources
+*. AssemblyInfo.cs
+
+# NuGet
+/packages/
+*.nupkg
+# *.snupkg
+
+# Build outputs
+Build/
+publish/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*.ilk
+*.obj
+*.pidb
+*.iobj
+*.lastbuildstate
+*.resources
+
+# Visual Studio temporary files
+_ReSharper*/
+[Bb]uildLog.*
+[Dd]ebug?
+[Rr]elease?
+Ankh.NoLoad
+*.cache
+*.orig
+*.scc
+*.shfbproj
+*.shfb
+
+# Python Specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv
+env/
+venv/
+/site-packages/
+
+# Optional
+RailDriver DLL 
+RailDriver64.dll
