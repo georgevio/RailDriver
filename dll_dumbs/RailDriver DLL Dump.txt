@@ -1,0 +1,41 @@
+Dump of file RailDriver.dll
+
+File Type: DLL
+
+  Section contains the following exports for RailDriver.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          26 number of functions
+          26 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000012A0 ClearChanged
+          2    1 00001300 ControllerChanged
+          3    2 000011C0 GetControllerList
+          4    3 00001230 GetControllerValue
+          5    4 00001450 GetCurrentControllerValue
+          6    5 000011B0 GetLocoName
+          7    6 00001350 GetNextRailDriverId
+          8    7 00001340 GetRailDriverConnected
+          9    8 000013D0 GetRailDriverGetId
+         10    9 000013F0 GetRailDriverGetType
+         11    A 000013A0 GetRailDriverValue
+         12    B 00001110 GetRailSimCombinedThrottleBrake
+         13    C 00001020 GetRailSimConnected
+         14    D 000010F0 GetRailSimLocoChanged
+         15    E 00001060 GetRailSimValue
+         16    F 00001150 IsLocoSet
+         17   10 00001180 SetControllerList
+         18   11 000012D0 SetControllerValue
+         19   12 00001120 SetLocoName
+         20   13 00001000 SetRailDriverConnected
+         21   14 00001420 SetRailDriverLocoChanged
+         22   15 00001400 SetRailDriverValue
+         23   16 00001330 SetRailSimConnected
+         24   17 00001200 SetRailSimControllerMinMax
+         25   18 000011D0 SetRailSimControllerValue
+         26   19 00001030 SetRailSimValue

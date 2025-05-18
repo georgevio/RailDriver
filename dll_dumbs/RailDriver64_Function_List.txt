@@ -1,0 +1,32 @@
+from the net
+SetRailDriverConnected() – Connects the RailDriver hardware.
+GetRailSimValue(int controlId) – Gets a control value.
+SetRailSimValue(int controlId, float value) – Sets a control value.
+GetLocoName() – Gets the name of the current locomotive.
+
+ClearChanged	0x00000001800012a0	0x000012a0	1 (0x1)	RailDriver64.dll	C:\Program Files (x86)\Steam\steamapps\common\RailWorks\plugins\RailDriver64.dll	Exported Function	
+ControllerChanged	0x0000000180001300	0x00001300	2 (0x2)	RailDriver64.dll	C:\Program Files (x86)\Steam\steamapps\common\RailWorks\plugins\RailDriver64.dll	Exported Function	
+GetControllerList	
+GetControllerValue	
+GetCurrentControllerValue	
+GetLocoName	
+GetNextRailDriverId	
+GetRailDriverConnected		
+GetRailDriverGetId	
+GetRailDriverGetType	
+GetRailDriverValue		
+GetRailSimCombinedThrottleBrake	
+GetRailSimConnected	
+GetRailSimLocoChanged	
+GetRailSimValue	
+IsLocoSet	
+SetControllerList	
+SetControllerValue	
+SetLocoName	
+SetRailDriverConnected	
+SetRailDriverLocoChanged	
+SetRailDriverValue	
+SetRailSimConnected		
+SetRailSimControllerMinMax	
+SetRailSimControllerValue	
+SetRailSimValue	
