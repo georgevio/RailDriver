@@ -5,8 +5,18 @@ import time
 # ===============================
 # Global Configuration
 # ===============================
-DLL_NAME = "C:\Program Files (x86)\Steam\steamapps\common\RailWorks\plugins\RailDriver64.dll"
-DEBUG_LEVEL = 3  # 0: NONE, 1: ERROR, 2: INFO, 3: DEBUG
+DLL_NAME = r"C:\Program Files (x86)\Steam\steamapps\common\RailWorks\plugins\RailDriver64.dll"  # Corrected path using raw string
+# Load RailDriver DLL
+def load_raildriver_dll(dll_name=DLL_NAME):
+    try:
+        raildriver = ctypes.CDLL(dll_name)
+        time.sleep(1)  # Small delay after loading
+        return raildriver
+    except OSError as e:
+        print(f"Error loading {dll_name}: {e}")
+        return None
+    
+DEBUG_LEVEL = 1  # 0: NONE, 1: ERROR, 2: INFO, 3: DEBUG
 LOG_LEVELS = {
     0: "NONE",
     1: "ERROR",
@@ -100,7 +110,7 @@ def get_controller_value(raildriver, control_id, mode=0):
 # Main Script Logic
 # ===============================
 if __name__ == "__main__":
-    raildriver_lib = load_raildriver_dll()  # Now uses the global DLL_NAME
+    raildriver_lib = load_raildriver_dll()  # Uses the global DLL_NAME
 
     if raildriver_lib:
         loco_name = get_loco_name(raildriver_lib)
