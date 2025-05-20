@@ -46,12 +46,9 @@ This project is a first approach to the world of train simulation, specifically 
     ```
     (The drive letter might vary depending on your system.)
 
-## ⚙️ Project Structure
+## 👨‍💻 Code Walkthrough: `*.py`
 
-├── docs/│   └── banner.png      # Project banner image├── raildriver_debug.py # Python debugging script└── README.md         # This file
-## 👨‍💻 Code Walkthrough: `raildriver_debug.py`
-
-The `raildriver_debug.py` script is a Python-based tool designed to interact with the RailDriver DLL. Here's a breakdown:
+There are several Pyton scripts designed to interact with the RailDriver DLL. They all need the folllowing:
 
 1.  **Import Libraries:**
     ```python
@@ -139,7 +136,7 @@ The `raildriver_debug.py` script is a Python-based tool designed to interact wit
     * Toggles the state of the headlights/wipers and attempts to set the corresponding controller values using `rd_dll.SetControllerValue`.
     * Reads the current values using  `rd_dll.GetControllerValue` and prints them to the console.
 
-## ⚠️ Challenges & Lessons Learned
+## ⚠️ Challenges & Issues
 
 Connecting RailDriver to Train Simulator Classic wasn't a smooth ride. Issues below:
 
@@ -163,7 +160,8 @@ Right now, the focus is on the topics below:
 * **Improving `SetControllerValue`:** Investigating the proper way to send commands to TSC via the DLL is essential for achieving control over the simulation.
 * **Expanding Controller Support:** Extending the script to handle a wider range of locomotive controls.
 * **Community Collaboration:** Engaging with the Train Simulator Classic and RailDriver communities to share findings and seek solutions.
-
+* **For more technical analysis and a focus on C#:** study carefully the tech_readme.md"
+  
 ## 📄 Disclaimer
 
 This project is an independent work created for fun and is a work in progress. It is not affiliated with, endorsed by, or connected in any way to the developers or publishers of the game, the manufacturers of the hardware utilizing RailDriver.dll, or any related organizations. The code is provided as-is, without warranty of any kind. The creator assumes no responsibility for any issues, damages, or consequences resulting from its use.
